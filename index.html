@@ -1,0 +1,70 @@
+<html>
+<head>
+  <link rel='stylesheet' type='css/text' href='style.css'>
+  <script type="text/javascript" src="./js/jquery2.1.js"></script>
+  <script type="text/javascript" src="misc.js"></script>
+  <title>KALLUP Software 2015</title>
+</head>
+<body bgcolor='blue'>
+  <div id='main-container'>
+    <table border='0'>
+      <tr>
+        <td valign='top' width='200px'><div id='costs-container'>
+          <font color='white'>Kosten:</font><br>
+          <font color='cyan'>1,00 Euro</font>
+        </div></td>
+        <td width='800px'><div id='firm-container'>
+          <center>
+            <h2><font color="yellow">Willkommen im Internet Cafe der <b>DIAKO</b></font></h2>
+            <h3><font color="cyan" face="Arial">Software (c) 2015 J. Kallup</font></h3>
+          </center>
+        </div>
+        </td>
+      </tr>
+    </table>
+    <center>
+    <div id="showmenu">
+    <table border='1' width='100%'>
+    <tr><td class='ApplicationsTD'>
+        <ul class='custom-menu'>
+          <li data-action="1">Zu&uuml;ck</li>
+          <li data-action="2">Neu laden ...</li>
+          <li data-action="3">Beenden</li>
+        </ul>
+        <center>
+        <div id='app_preload' style='display:none;'>
+          Anwendumg wird geladen<br>
+          Bitte einen Moment Geduld...
+        </div>
+        <div id='app_loaded' style='display:none;'>
+          <iframe id='subview' width="270px" height="450px" frameboarder='2' scrolling="no"></iframe>
+        </div>
+        <div id='appdeck'>
+          <table border='0'>
+            <tr><td>
+              <a href='http://localhost/cafe/browser.html' id='browser'>
+                <center>
+                  <img src='img/browser.jpg' width='120px' height='120px'></img><br>
+                  <font size='5' color='white'><b>Browser</b></font>
+                </center>
+              </a>
+            </td><td>
+              <a href='http://localhost/cafe/calculator.html' id='calculus'>
+                <center>
+                  <img src='img/rechner.jpg' width='120px' height='120px'></img><br>
+                  <font size='5' color='white'><b>Taschenrechner</b></font>
+                </center>
+              </a>
+            </td></tr>
+          </table>
+        </div>
+        </center>
+      </td>
+      </tr>
+    </table>
+    </div>
+    <button onclick='close_cafe();'>close</button>
+  </center>
+  </div>
+</body>
+</html>

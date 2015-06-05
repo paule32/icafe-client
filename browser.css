@@ -1,0 +1,10 @@
+#BrowserIFnavigate {
+  width: 100%;
+  height: 42px;
+}
+
+#BrowserIFcontents {
+  width: 100%;
+  height: 100%;
+  scrolling: 'yes';
+}
